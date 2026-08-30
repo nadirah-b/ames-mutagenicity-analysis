@@ -4,12 +4,6 @@
 
 A computational toxicology project investigating relationships between molecular properties and Ames mutagenicity and evaluating machine-learning approaches for binary mutagenicity prediction.
 
-The dataset was originally published by Hansen et al. (2009) as a public benchmark dataset for the prediction of Ames mutagenicity and is distributed under a CC BY-NC 4.0 licence.
-
-**Reference:** Hansen K, Mika S, Schroeter T, et al. *Benchmark Data Set for in Silico Prediction of Ames Mutagenicity.* Journal of Chemical Information and Modeling. 2009;49(9):2077–2081. doi:10.1021/ci900161g.
-
-Dataset source: ACS Figshare, "Benchmark Data Set for in Silico Prediction of Ames Mutagenicity."
-
 ## Project Overview
 
 The Ames test is widely used to assess whether chemical compounds have mutagenic potential. Computational approaches can complement experimental testing by identifying molecular characteristics associated with mutagenicity and by developing predictive models from chemical structure-derived information.
@@ -29,6 +23,12 @@ This project analyses 6,506 compounds using nine molecular descriptors calculate
 ## Dataset
 
 The analysis uses the Hansen Ames mutagenicity dataset.
+
+The dataset was originally published by Hansen et al. (2009) as a public benchmark dataset for the prediction of Ames mutagenicity and is distributed under a CC BY-NC 4.0 licence.
+
+**Reference:** Hansen K, Mika S, Schroeter T, et al. *Benchmark Data Set for in Silico Prediction of Ames Mutagenicity.* Journal of Chemical Information and Modeling. 2009;49(9):2077–2081. doi:10.1021/ci900161g.
+
+Dataset source: ACS Figshare, "Benchmark Data Set for in Silico Prediction of Ames Mutagenicity."
 
 After molecular structure validation with RDKit, 6,506 compounds were retained for analysis:
 
